@@ -62,8 +62,3 @@ var lastName = "asano"
 
 var fullName = firstName + " " + lastName  // adding strings is also called concatenation or concat
 console.log(fullName, "is beautiful")
-
-
-
-
-
