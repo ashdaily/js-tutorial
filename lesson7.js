@@ -55,6 +55,9 @@ function sayThanks(){
 function serveTheCustomer(customerNumber){
     console.log(`serving customer number ${customerNumber}`)
     welcomeTheCustomer()
+    if(customerNumber === 1){
+        console.log("You are LUCKY customer, free food for you")
+    }
     offerWater()
     offerMenu()
     walkAway()
