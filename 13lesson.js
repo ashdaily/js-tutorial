@@ -18,10 +18,23 @@ for(times = 1; times <=100; times++){
     console.log(`${number} x ${times} = ${number*times}`)
 }
 
-var favFood = ["biryani", "dosa", "banana", "apple", "udon", "misoshiru"]
-
+var favFood = ["biryani", "meat", "banana"]
+// favFood.length will be 3, indexes will be 0, 1, 2
+// favFood[0][0]
 var i;
 
-for(i = 0; i < favFood.length; i++){
+for(i = 0; i < 3; i++){
     console.log(favFood[i])
 }
+// step1: i = 0
+// step2: 0 < 3 is true
+// step3: run the code block, favFood[0] (biryani will print)
+// step4: add 1 to i, now i = 1
+// step5: 1 < 3 is true
+// step6: run the code block, favFood[1] (meat will print)
+// step7: add 1 to i, now i = 2
+// step8: 2 < 3 is true
+// step9: run the code block, favFood[2] (banana will print)
+// step10: add 1 to i, now i = 3
+// step11: 3 < 3 is false
+// step12: it will not run the code block (loop finished)
