@@ -23,7 +23,7 @@ var favFood = ["biryani", "meat", "banana"]
 // favFood[0][0]
 var i;
 
-for(i = 0; i < 3; i++){
+for(i = 0; i <= 2; i++){
     console.log(favFood[i])
 }
 // step1: i = 0
