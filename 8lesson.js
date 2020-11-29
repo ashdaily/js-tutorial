@@ -16,3 +16,11 @@ function myFunctionName(arg1, arg2, arg3){
 
 myFunctionName({}, [], "")
 */
+
+
+function multiplyTwoNumbers(a, b){
+    return a*b
+}
+
+multiplyTwoNumbers(29, 10)
+multiplyTwoNumbers(20, 89)
